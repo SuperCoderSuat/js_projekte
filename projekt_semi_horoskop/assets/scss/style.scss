@@ -1,0 +1,42 @@
+/***********************************
+ * Projects-JS-Einführung-Level-1_1
+ **********************************/
+
+html {
+    font-family: sans-serif;
+}
+
+section {
+    text-align: center;
+
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+        
+    
+        input {
+            width: 30%;
+        }
+
+        input:nth-of-type(1) {
+            margin-bottom: 10px;
+        }
+
+        input:nth-of-type(2) {
+            width: 10%;
+        }
+    }
+
+    .horoskop_wrapper {
+        width: 200px;
+        height: 300px;
+        box-shadow: 0px 1px 5px black;
+        margin: 0 auto;
+        border-radius: 15px;
+        padding: 30px;
+        display: none;
+    }
+}

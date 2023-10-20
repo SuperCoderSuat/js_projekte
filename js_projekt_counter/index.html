@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Counter</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="content">
+            <h1>JS Counter</h1>
+            <p></p>
+            <form onsubmit="return false">
+                <input type="submit" value="+1" onclick="addOne()">
+                <input type="submit" value="-1" onclick="subOne()">
+                <input type="submit" value="+10" onclick="addTen()">
+                <input type="submit" value="-10" onclick="subTen()">
+                <input type="submit" value="+100" onclick="addHundred()">
+                <input type="submit" value="-100" onclick="subHundred()">
+                <input type="submit" value="Reset" onclick="resetValue()">
+                <input type="submit" value="*2" onclick="timesTwo()">
+            </form>
+        </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

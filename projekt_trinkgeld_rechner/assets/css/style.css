@@ -1,0 +1,15 @@
+section {
+  padding-top: 20%;
+}
+section article {
+  background-color: green;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+section article form label, section article form input {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
